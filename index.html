@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기 소개 페이지</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        #profilecard {
+            background-color: white;
+            /* 가로길이(폭) */
+            width: 50%;
+            /* margin-left: 왼쪽 여백(경계선 바깥쪽) */
+            margin-left: auto;
+            /* margin-right : 오른쪽 여백 */
+            margin-right: auto;
+            margin-top: 50px;
+            /* 글자 정렬 */
+            text-align: center;
+            border-radius: 15px;
+            /* padding: 안쪽 여백(경계선 안쪽) */
+            padding: 30px;
+        }
+
+        img {
+            /*object-fit : 컨텐츠의 비율 조정 */
+            object-fit: cover;
+            /* border-radius : 반경 조정 */
+            border-radius: 50%;
+
+        }
+
+        /* a태크 선택, 글씨색 변경, 밑줄이 나타나지 않도록 스타일 적용 */
+        a {
+            color: steelblue;
+            text-decoration: none;
+            /* 폰트 두께 조절 */
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="profilecard">
+        <img src="./image/img1.jpg" alt="파일이 없습니다">
+        <h1>정재호</h1>
+        <p>정재호입니다</p>
+        <p>이메일은 <a href="">weed1357@naver.com</a>입니다</p>
+        <a href="hobby.html">취미로 이동</a>
+    </div>
+</body>
+
+</html>
